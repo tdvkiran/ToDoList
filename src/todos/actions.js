@@ -15,3 +15,12 @@ export const removeTodo= text=>{
         payload: {text},
     }
 }
+
+export const MARK_COMPLETED= 'MARK_COMPLETED';
+
+export const markCompleted =text=>{
+    return {
+        type: MARK_COMPLETED,
+        payload: {text},
+    }
+}
